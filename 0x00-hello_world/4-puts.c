@@ -1,9 +1,8 @@
 #include <stdio.h>
 
 /*
-* C program that prints using function puts *
-*main - main block
-*Return = 0; *
+*main - entry point*
+Return 0 after printing function puts 
 */
 
 int main(void)
