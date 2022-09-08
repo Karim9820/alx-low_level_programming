@@ -4,12 +4,13 @@
  *
  * Use the function puts
  *
- * /
+ */
 
 int main (void)
 
 {
-	puts("\"Programming is like building a multilingual puzzle"); /*Prints*/
+	puts("\"Programming is like building a multilingual puzzle"); 
+	
 	return (0);
 
 }
