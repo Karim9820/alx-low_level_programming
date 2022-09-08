@@ -1,13 +1,18 @@
 #include <stdio.h>
 
-/*
-*main - entry point*
-Return 0 after printing function puts 
-*/
+/**
+ * main - Entry point
+ *
+ * Description: 'prints exactly "Programming is like building a multilingual puzzle", followed by a new line.' 
+ *
+ * Return: 0 (Success)
+ */
 
 int main(void)
 
 {
-puts("\"Programming is like building a multilingual puzzle");
-return (0);
+
+	   puts("\"Programming is like building a multilingual puzzle");
+	   return (0);
+
 }
