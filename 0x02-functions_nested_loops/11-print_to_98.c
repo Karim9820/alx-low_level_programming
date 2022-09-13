@@ -7,9 +7,21 @@
  */
 void print_to_98(int n)
 {
-	for (n = 1; n <= 98; n++)
+	int a;
+
+	if (n < 98)
 	{
-		_putchar(n + '0');
+		for (i = n; i < 98; i++)
+		{
+			printf("%d, ", i);
+		}
 	}
-	_putchar('\n');
+	else if (n > 98)
+	{
+		for (i = n; i > 98; i--)
+		{
+			printf("%d, ", i);
+		}
+	}
+	printf("\n");
 }
