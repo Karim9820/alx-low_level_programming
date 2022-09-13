@@ -2,8 +2,8 @@
 
 /**
  * add - adds two integers and returns the result.
- * a: first number
- * b: second number
+ * @a: first number
+ * @b: second number
  * Result: sum of two numbers
  * Return: 0
  */
