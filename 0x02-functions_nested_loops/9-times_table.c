@@ -17,16 +17,23 @@ void times_table(void)
 		{
 			prod = n * multi;
 
-			if (prod <= 9)
+			if (multi == 0)
 			{
 				_putchar(prod + '0');
-				_putchar(',');
+			}
+			else if (prod <= 9)
+			{
 				_putchar(' ');
+				_putchar(prod + '0');
 			}
 			else
 			{
 				_putchar((prod / 10) + '0');
 				_putchar((prod % 10) + '0');
+			}
+
+			if (multi < 9)
+			{
 				_putchar(',');
 				_putchar(' ');
 			}
