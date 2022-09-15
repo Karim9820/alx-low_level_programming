@@ -7,15 +7,14 @@
 
 void print_numbers(void)
 {
-	char c;
+	int i;
 
-	c = '0';
+	i = 0;
 
-	for (c > 47 && c < 58)
+	while (i < 10)
 	{
-		_putchar(c);
-		c++;
+		_putchar(i + '0');
+		i++;
 	}
 	_putchar('\n');
-	return (0);
 }
