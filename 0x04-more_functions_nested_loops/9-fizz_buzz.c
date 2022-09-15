@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * prints the numbers from 1 to 100
- * for multiples of three print Fizz instead of the number 
+ * for multiples of three print Fizz instead of the number
  * for the multiples of five print Buzz
  * numbers which are multiples of both three and five print FizzBuzz
  * Return: 0 (success)
@@ -15,7 +15,6 @@ int main(void)
 	int i;
 
 	i = 1;
-	
 	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
