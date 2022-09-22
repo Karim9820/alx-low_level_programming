@@ -8,12 +8,16 @@ include "main.h"
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i;
+	char *i;
+	char *j;
 
-	for (i = 0; s1[i] != '\0' || s2[i] != '\0'; i++)
+	i = s2;
+	j = s1;
+
+	while (*s1 != '\0' && *s2 != '\0' && *j == *i)
 	{
-		if (s1[i] != s2[i])
-			return (s1[i] - s2[i]);
+		j++;
+		i++;
 	}
-	return (0);
+	return (*j - *i);
 }
