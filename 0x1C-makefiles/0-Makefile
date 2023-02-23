@@ -1,0 +1,4 @@
+school:
+	$(non)
+
+all: school	
